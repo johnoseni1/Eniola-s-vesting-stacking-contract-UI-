@@ -1,0 +1,32 @@
+{
+  "name": "eniola-stuff",
+  "private": true,
+  "author": "John oseni <johnoseni26@gmail.com>",
+  "dependencies": {
+    "@metamask/legacy-web3": "^2.0.0",
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.7.0",
+    "ethereumjs-testrpc": "^6.0.3",
+    "moment": "^2.19.1",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-chartjs-2": "^2.6.4",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "require-symlink": "^0.2.0",
+    "truffle": "^3.4.11",
+    "truffle-contract": "^1.1.11",
+    "web3": "^1.0.0-beta.23",
+    "zeppelin-solidity": "git+https://git@github.com/OpenZeppelin/zeppelin-solidity.git#8e01dd14f9211239213ae7bd4c6af92dd18d4ab7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "require-link && react-scripts build",
+    "test": "require-link && react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "requireSymlinks": {
+    "contracts": "./build/contracts"
+  }
+}

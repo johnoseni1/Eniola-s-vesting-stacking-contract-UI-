@@ -1,0 +1,87 @@
+.TokenVestingApp {
+  background-color: #fafbfc;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+
+  text-align: left;
+  color: black;
+  border-bottom: 1px solid #ecf0f2;
+}
+
+.logo {
+  position: relative;
+  left: -27px;
+  height: 50px;
+  padding-right: 12px;
+  border-right: 1px solid #5cb6e4;
+}
+
+.contracts {
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.contracts h3 {
+  font-size: 20px;
+  margin: 5px 0 0;
+}
+
+.contracts a {
+  color: #004569;
+}
+
+.contracts span {
+  color: #333;
+  font-size: 11px;
+}
+
+.details a {
+  cursor: pointer;
+}
+
+.warning {
+  position: relative;
+}
+
+.warning-message {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 50px;
+
+  font-size: 16px;
+  text-align: center;
+}
+
+.action {
+  position: absolute;
+  right: 30px;
+}
+
+.spinner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+
+  background: rgba(255, 255, 255, .5);
+  z-index: 1;
+}
+
+.spinner img {
+  height: 50px;
+}
+
+.emoji {
+  vertical-align: middle;
+}
+
+th {
+  min-width: 155px;
+}
